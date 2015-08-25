@@ -1,0 +1,61 @@
+sistemas de control de versiones
+	distribuidos 
+		cada usuario tienen su propio repositorio[no es necesario
+		tomar decisiones centralizadas]
+		los repositorios pueden intercambiar y mesclar revisiones entre ellos
+		mercurial y git
+		todos los usuarios que participan en el proyecto se trabsnforma en un mirror
+		si cae no hay por que preocuparse pueden usarse los otros.
+		git usa el checksum[verificacion de datos .. verifica que no sean corrumpidos.]
+		commit convertir algo temporal en permanente[en git crea un panoramica mas los anteriores commit
+		se conservan]
+	
+	centralizados
+		existe un repositorio centralizado de todo el codigo
+		con un unico administrador facilita la administracion
+		pero reduce la flexibilidad todo necesita la aprobacion
+		del administrador svc subversion
+		
+git se puede encontrar en 3 estados
+directorio gi[Repositorio](guarda metadatos y los objetos de la bd para nuestro proyecto)__Commited:quiere decir que nuestros datos se encuetran a salvo e nnuestra base de datos local.
+stating area(almacena informacion de los archivos que iran en el proximo commit)__	staging:: [podemos ir colocando archivos que seran enviados cuando se haran un commit].
+directorio de trabajo__	modified:: quiere decir que hemos cambiado varios archivos pero que aun no los hemos guardado.		
+
+COMANDOS DE GIT
+cd ~/.ssh si acepta el comando quiere decir que ya existe una clave ssh
+
+dentro de ~/.ssh 
+	hacemos un backup de esta clave 
+	mkdir key_backup
+	cp id_rsa* key_backup
+	rm id_rsa*
+	clave fue pierreminaya
+
+
+
+creamos una clave ssh
+clae para el github fue pierreminaya2015
+	
+
+
+	git config --global user.name "Pierre M"
+	git config --global user.emal	<pierreminaya@gmail.com>
+
+git init[se creara una carpeta .git donde se almacena repositorios]
+
+git clone
+git config --list
+hay herramientas en git que conectan a github sin ssh 
+
+
+
+
+
+
+
+
+
+
+	
+	
+
